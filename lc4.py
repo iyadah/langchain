@@ -5,8 +5,8 @@ from langchain.chains import LLMChain
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent
 from langchain.llms import OpenAI
-os.environ['OPENAI_API_KEY']='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'
-os.environ['SERPAPI_API_KEY']='5a64aff7c0a40bc5901b01368cd894c90a4e01925f99a1d1bec544c4c977f4df'
+os.environ['OPENAI_API_KEY']='sk-xx'
+os.environ['SERPAPI_API_KEY']='xx'
 print(os.environ['OPENAI_API_KEY'])
 print(os.environ['SERPAPI_API_KEY'])
 llm = OpenAI(temperature=0)
